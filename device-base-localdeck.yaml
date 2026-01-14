@@ -33,7 +33,7 @@ esphome:
   platformio_options:
     board_build.flash_mode: dio
   includes:
-    - packages/device/localdeck.h
+    - localdeck.h
   on_boot:
     - priority: -10
       then:
