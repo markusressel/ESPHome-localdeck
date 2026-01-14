@@ -4,7 +4,9 @@ This repository contains custom ESPHome configuration files for the LocalBytes�
 The configuration is derived off of the official LocalBytes™ firmware (which can be found here: https://github.com/LocalBytes/localdeck-config/blob/main/packages/localdeck-codegen/esphome-localdeck.yaml) but includes additional features,
 enhancements, and optimizations.
 
-## Features
+## Changelog
+
+### Features
 
 - Based on the official LocalBytes™ LocalDeck ESPHome configuration
 - Blip animation enhancements
@@ -13,7 +15,7 @@ enhancements, and optimizations.
   - Blip duration in milliseconds
   - Individual Blip brightness control (independent of overall brightness)
 
-## Fixes
+### Fixes
 
 - Blip animations don't overlap each other, preventing animation glitches
 - Fix latency issues and missed button events caused by ESPHome state change debouncing, see: https://github.com/LocalBytes/localdeck-config/issues/57
