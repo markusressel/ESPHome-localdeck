@@ -69,6 +69,11 @@ api:
 wifi:
   # reduces light flickering, see: https://github.com/esphome/esphome/issues/10335
   power_save_mode: none
+sensor:
+  - platform: uptime
+    type: timestamp
+    name: Last Boot Timestamp
+    entity_category: "diagnostic"
 text_sensor:
   - platform: wifi_info
     mac_address:

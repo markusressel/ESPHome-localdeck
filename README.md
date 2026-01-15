@@ -6,20 +6,28 @@ enhancements, and optimizations.
 
 ## Changelog
 
-### Features
+### New Features
 
-- Based on the official LocalBytes™ LocalDeck ESPHome configuration
 - Blip animation enhancements
   - Blip is overlaid ontop of the current color of the button instead of replacing it
 - Additional configuration entities
   - Blip duration in milliseconds
   - Individual Blip brightness control (independent of overall brightness)
 
-### Fixes
+### Bug Fixes
 
 - Blip animations don't overlap each other, preventing animation glitches
 - Fix latency issues and missed button events caused by ESPHome state change debouncing, see: https://github.com/LocalBytes/localdeck-config/issues/57
 
+### Removed Components
+
+- Web server component has been removed to free up resources and reduce complexity
+- Improv WiFi component has been removed, as I deploy using my own method.
+
+### Other noteworthy Changes
+
+- disabled WiFi power save mode to reduce light flickering, see: https://github.com/esphome/esphome/issues/10335
+- added "Last Boot Timestamp" sensor, to be able to insantly update the device when it comes online
 
 # Affiliation Note
 
