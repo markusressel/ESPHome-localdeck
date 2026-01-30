@@ -22,12 +22,12 @@ enhancements, and optimizations.
 ### Removed Components
 
 - Web server component has been removed to free up resources and reduce complexity
-- Improv WiFi component has been removed, as I deploy using my own method.
+- Improv Wi-Fi component has been removed, as I deploy using my own method.
 
 ### Other noteworthy Changes
 
-- disabled WiFi power save mode to reduce light flickering, see: https://github.com/esphome/esphome/issues/10335
-- added "Last Boot Timestamp" sensor, to be able to insantly update the device when it comes online
+- disabled Wi-Fi power save mode to reduce light flickering, see: https://github.com/esphome/esphome/issues/10335
+- added "Last Boot Timestamp" sensor, to be able to instantly update the device when it comes online
 
 # Affiliation Note
 
